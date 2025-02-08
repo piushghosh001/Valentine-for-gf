@@ -1,0 +1,11 @@
+*{
+  font-family: serif;
+  background: pink;
+ 
+}
+
+p{
+  font-size: 2remrem;
+  border: 10px solid black;
+  background: palevioletred;
+}

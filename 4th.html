@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <title>For Her</title>
+</head>
+
+<body>
+<div class="container">
+<div class="tenor-gif-embed" data-postid="13274407600455269484" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/peach-goma-fortune-gif-13274407600455269484">Peach Goma Fortune Sticker</a>from <a href="https://tenor.com/search/peach+goma-stickers">Peach Goma Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+  <h1>Mane jao na Baby! please request 👉👈</h1>
+  <p>Abar Mana kore dhekao...</p>
+
+  <div class="btn">
+    <a href="yes.html">Yes</a>
+    <a href="5th.html">No</a>
+  </div>
+</div>
+
+    <script>
+        const link = document.getElementById("movingLink");
+
+        function moveLink() {
+            const maxX = window.innerWidth - link.clientWidth;
+            const maxY = window.innerHeight - link.clientHeight;
+            const newX = Math.random() * maxX;
+            const newY = Math.random() * maxY;
+            
+            link.style.left = `${newX}px`;
+            link.style.top = `${newY}px`;
+        }
+
+        link.ontouchstart = function(event) {
+            event.preventDefault(); // Prevent default touch behavior (like opening the link)
+            moveLink();
+        };
+    </script>
+
+</body>
+</html>
